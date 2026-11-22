@@ -75,7 +75,7 @@
         bunDeps = example.bunDeps;
       });
       alternateBun = pkgs.bun.overrideAttrs (_: {
-        version = "1.4.5";
+        version = "1.4.4-fake";
         __intentionallyOverridingVersion = true;
       });
       alternate = example.overrideAttrs (_: {
