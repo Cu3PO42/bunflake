@@ -34,7 +34,9 @@ currently no commitment to long-term maintenance.
 Bun 1.4.4 or newer is required. Supported systems are `aarch64-darwin`,
 `aarch64-linux`, and `x86_64-linux`; cross compilation is not supported.
 
-Since Bun 1.4.4 is the newest version (and bundled in this Flake) at time of writing, we do not yet know if future updates may change cache formats and invalidate hashes.
+Bun 1.4.5 is the newest version at the time of writing (and bundled in this
+Flake). It still results in the same hashes as 1.4.4, but we do not know if
+future updates may change cache formats still.
 
 ## AI disclosure
 
