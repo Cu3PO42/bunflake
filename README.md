@@ -55,7 +55,7 @@ Create a `flake.nix` alongside your application's `package.json` and committed
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    bunflake.url = "github:Cu3PO42/build-bun-package";
+    bunflake.url = "github:Cu3PO42/bunflake";
   };
 
   outputs =
